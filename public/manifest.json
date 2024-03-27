@@ -8,5 +8,13 @@
   "action": {
     "default_popup": "index.html"
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gobiernoenlinea1.jalisco.gob.mx/serviciosVehiculares/adeudos"
+      ],
+      "js": ["content-script.js"]
+    }
+  ],
   "permissions": ["storage"]
 }
