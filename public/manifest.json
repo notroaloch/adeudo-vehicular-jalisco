@@ -4,5 +4,9 @@
   "name": "Adeudo Vehicular Jalisco",
   "short_name": "AdeudoJal",
   "description": "Extensión para guardar información de vehículos y autocompletar el formulario de manera automática",
-  "author": "roaloch@gmail.com"
+  "author": "roaloch@gmail.com",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage"]
 }
